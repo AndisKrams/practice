@@ -57,7 +57,7 @@
     <!--Header with navigation-->
     <header id="header" class="container section">
         <div class="row">
-            <div class="col-12 col-xl-6" text-center text-xl-left>
+            <div class="col-12 col-xl-6">
                 <h1 class="display-3">Game Library</h1>
                 <p class="lead display-6 sub-heading-color">Discover new games to rent or buy</p>
                 <p class="my-4">Dive into a world of adventure, strategy, and fun with our carefully curated collection
@@ -96,6 +96,7 @@
                     </div>
                 </div>
             </div>
+        </div>
     </header>
 
     <!--Main element for all key sections of the home page. It is not part of grid structure.-->
@@ -234,7 +235,7 @@
                         <div class="col-12 col-xl-4 mb-3">
                             <label for="full-name" class="form-label">Full name</label>
                             <input class="form-control" id="full-name" name="full-name" type="text" required>
-                        </div>                        
+                        </div>
                         <div class="col-12 col-xl-4 mb-3">
                             <label for="phone" class="form-label">Phone number</label>
                             <input class="form-control" id="phone" name="phone" type="number" required>
@@ -259,12 +260,12 @@
                         </div>
                         <div class="col-12 col-xl-4 mb-3">
                             <label for="date" class="form-label">Requested date</label>
-                            <input class="form-control" id="date" name="date" input type="date" required></textarea>
+                            <input class="form-control" id="date" name="date" type="date" required>
                         </div>
                     </div>
-                      
-                    <button style="float:right;" type="submit" class="btn custom-button-outline ">Submit</button>
-                    
+
+                    <button style="float:right;" type="submit" class="btn custom-button-outline mb-4">Submit</button>
+
                 </form>
             </div>
         </section>
@@ -312,8 +313,9 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <th scope="row">Mon</th>
-                            <td colspan="2">Closed</td>
+                            <tr>
+                                <th scope="row">Mon</th>
+                                <td colspan="2">Closed</td>
                             </tr>
                             <tr>
                                 <th scope="row">Tue - Thur</th>
